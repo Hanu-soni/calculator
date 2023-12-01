@@ -1,34 +1,59 @@
 .calculator {
-    text-align: center;
-  }
-  
-  .calculator-box {
-    border: 10px black solid;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 600px;
-  }
-  
-  .calculator-top {
-    height: 300px;
-    background-color: lightgray;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 24px;
-  }
-  
-  .calculator-bottom {
-    height: 300px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .operator-button {
-    margin: 5px;
-    font-size: 18px;
-  }
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.calculator-box {
+  border: 10px black solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  max-width: 50%;
+  height: 400px;
+}
+
+.calculator-top {
+  height: 300px;
+  background-color: lightgray;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 44px;
+  align-items: flex-end;
+}
+
+.calculator-top-operator {
+  height: 300px;
+  background-color: lightgray;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 34px;
+  align-items: flex-end;
+  color: blue; /* Set operator color to blue */
+}
+
+.calculator-bottom {
+  height: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.operator-button {
+  margin: 5px;
+  font-size: 24px;
+  width: calc(25% - 10px);
+  color:white; /* Set operator color to blue */
+}
+
+.number-button {
+  margin: 5px;
+  font-size: 24px;
+  width: calc(25% - 10px);
+  color: red; /* Set number color to red */
+}
+
+
   
